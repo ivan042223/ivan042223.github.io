@@ -1,0 +1,454 @@
+header
+    position: relative
+    nav
+        height: 50px
+        background-color: #212121
+        .menu
+            display: flex
+            justify-content: space-between
+            padding: 13px 70px
+            margin: 0
+            list-style: none
+            .menu_item
+                border-right: 2px dotted black
+                padding-right: 28px
+                &:nth-child(6)
+                    border: none
+                    
+                .menu_link
+                    color: #ffffff
+                    font-size: 15px
+                    font-weight: 300
+        .gamburger
+            display: none
+.subheader
+    width: 100%
+    position: absolute
+    height: 84px
+    background-color: rgba(0, 0, 0, 0.6)
+    .subheader_logo
+        display: block
+        max-width: 100%
+        margin-top: 16px
+    .subheader_official
+        opacity: 0.5
+        color: #ffffff
+        font-size: 13px
+        font-weight: 400
+        margin-top: 6px
+    .subheader_call
+        margin-top: 19px
+        color: #ffffff
+        font-size: 12px
+        font-weight: 300
+        text-align: right
+    .subheader_phone
+        display: block
+        color: #ffffff
+        font-size: 22px
+        font-weight: 400
+        text-transform: uppercase
+        margin-top: 8px
+        text-align: right
+        line-height: 12px
+    .subheader_btn
+        margin-top: 19px
+        width: 172px
+        height: 46px
+        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+        border: none
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+        color: #ffffff
+        font-size: 14px
+        font-weight: 400
+        text-transform: uppercase
+        border-radius: 4px
+    .visible
+        display: none
+                            
+.promo
+    padding: 150px 0 135px 0
+    height: 800px
+    background: url(/src/img/Background.jpg) center (center / cover) no-repeat
+    .promo_header
+        margin: 0
+        font-weight: 700
+        text-transform: uppercase
+        font-size: 60px
+        font-weight: 700
+        line-height: 60px
+        color: #ffffff
+        text-align: center
+    .promo_subheader
+        margin: 0
+        color: #ffffff
+        font-family: Roboto
+        font-size: 36px
+        text-transform: uppercase
+        font-weight: 400
+        line-height: 48px
+        text-align: center
+        margin-top: 22px
+    .promo_dcr
+        color: #ffffff
+        font-size: 18px
+        font-weight: 400
+        line-height: 24px
+        margin-top: 23px
+        text-align: center
+    .promo_btn
+        display: block
+        margin: 118px auto 0 auto
+        width: 259px
+        height: 63px
+        box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+        border: 3px solid rgba(0, 0, 0, 0.07)
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+        color: #ffffff
+        font-size: 18px
+        font-weight: 400
+        text-transform: uppercase
+
+.reason
+    min-height: 955px
+    padding: 71px 0 65px 0
+    .advant
+        width: 112px
+        height: 24px
+        background-color: #000000
+        color: #ffffff
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+        margin: 0 auto
+        text-align: center
+        padding-top: 4px
+    .reason_header
+        color: #222222
+        font-size: 38px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+        margin-top: 38px
+        line-height: 38px
+    .row
+        .reason_item
+            display: flex
+            justify-content: space-around
+            margin-top: 40px
+        .round
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 113px
+            height: 113px
+            background-color: #1eacc7
+            border-radius: 100%
+        .reason_dcr
+            width: 342px
+            height: 142px
+            color: #202020
+            font-family: Roboto
+            font-size: 15px
+            font-weight: 300
+            line-height: 18px
+            span
+                color: #1eacc7
+                font-size: 17px
+                font-weight: 400
+
+
+.mobile
+    min-height: 864px
+    padding: 48px 0 80px 0
+    background: url(/src/img/Rectangle.jpg) center (center / cover) no-repeat  
+    .capab
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        width: 112px
+        height: 24px
+        background-color: #000000
+        color: #ffffff
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+    .mobile_header
+        color: #222222
+        font-size: 38px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+        margin: 0
+        margin-top: 38px
+        line-height: 38px
+    .mobile_subheader
+        color: #222222
+        font-family: Roboto
+        font-size: 17px
+        font-weight: 400
+        line-height: 21px
+        margin-top: 19px
+        text-align: center
+    .row 
+        margin-top: 32px     
+        .mobile_item
+            margin-bottom: 19px
+            position: relative
+            padding-top: 91px
+            width: 320px
+            height: 280px
+            background: url(../img/Mobile1.jpg) center (center / cover) no-repeat
+            .mobile_dcr
+                color: #ffffff
+                font-size: 24px
+                font-weight: 400
+                text-transform: uppercase
+                text-align: center
+            .plus
+                position: absolute
+                display: flex
+                bottom: 35px
+                left: 147px
+                justify-content: center
+                align-items: center
+                width: 26px
+                height: 26px
+                background-color: #000000
+                border-radius: 100%
+
+.car
+    height: 900px
+    background-image: linear-gradient(to bottom, #070716 50%, white 50%)
+    padding: 57px 0 138px 0
+    .capab2
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        width: 112px
+        height: 24px
+        background-color: #ffffff
+        color: #070716
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+    .choose
+        margin: 0
+        color: #ffffff
+        font-size: 38px
+        font-weight: 700
+        text-transform: uppercase
+        margin-top: 32px
+        text-align: center
+        line-height: 38px
+    .choose_subheader
+        color: #ffffff
+        font-size: 17px
+        font-weight: 400
+        line-height: 21px
+        text-align: center
+        margin-top: 19px
+    .car_img
+        display: block
+        margin: 0 auto
+        margin-top: 56px       
+        img
+            display: block
+            margin: 0 auto
+            max-width: 100%
+    .car_dcr
+        text-align: center
+        color: #222222
+        font-size: 17px
+        font-weight: 300
+        line-height: 24px
+
+.conditions
+    min-height: 919px
+    padding: 68px 0 84px 0
+    .capab
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        width: 112px
+        height: 24px
+        background-color: #000000
+        color: #ffffff
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+    &_header
+        color: #222222
+        margin: 0
+        font-size: 38px
+        font-weight: 700
+        line-height: 38px
+        text-transform: uppercase
+        text-align: center
+        margin-top: 33px
+    .wrapper
+        margin-top: 32px
+        margin-bottom: 32px
+        &_nmb
+            margin-bottom: 0
+        &_allert 
+            .wrapper_h2
+                color: #ff5656
+                font-size: 22px
+                font-weight: 400
+            .wrapper_ul
+                li
+                    &:before
+                      background: url(../icons/red.png)     
+
+        &_h2
+            color: #1ca8c3
+            font-size: 22px
+            font-weight: 400
+        &_ul
+            list-style-type: none
+            margin: 22px
+            padding-left: 50px
+            li
+                position: relative
+                color: #222222               
+                font-size: 17px
+                font-weight: 300
+                margin-bottom: 10px
+                &:before
+                    content: ''
+                    position: absolute
+                    left: -33px
+                    top: 3px
+                    display: inline-block
+                    width: 21px
+                    height: 20px                       
+                    background: url(../icons/blue.png)                   
+        &_dcr
+            color: #1ca8c3
+            font-weight: 300
+            font-size: 19px
+
+.map
+    height: 717px
+    padding: 49px 0 
+    background: url(../img/map.jpg) center (center / cover) no-repeat
+    .city
+        display: flex
+        margin: 0 auto
+        justify-content: center
+        align-items: center
+        width: 76px
+        height: 24px
+        background-color: #ffffff
+        color: #070716
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+    &_header
+        text-align: center
+        margin: 0
+        margin-top: 32px
+        color: #ffffff
+        font-size: 38px
+        line-height: 38px
+        font-weight: 700
+        text-transform: uppercase   
+    &_subheader
+        margin-top: 20px
+        text-align: center
+        color: #ffffff
+        font-size: 17px
+        font-weight: 400
+        line-height: 21px
+    &_link
+        display: block
+        text-align: center
+        margin-top: 486px
+        color: #1fbad6
+        font-size: 15px
+        font-weight: 400
+        text-transform: uppercase
+        transition: 1s all
+        &:hover
+            color: red
+
+footer
+    height: 156px
+    padding-top: 14px
+    .line
+        display: block
+        margin: 0 auto
+        width: 299px
+        height: 4px
+        background-color: #1fbad6
+    .Toplink_item
+        display: flex
+        margin: 0 auto
+        justify-content: space-between
+        width: 370px
+        margin-top: 32px
+        text-align: center
+        .toplink
+            color: #070716
+            font-size: 15px
+            font-weight: 300
+            text-transform: uppercase
+    .downlink_item
+        .footer_ul
+            margin: 0 auto
+            margin-top: 5px
+            width: 388px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 0
+            list-style: none
+            .down_link
+                color: #999999
+                font-size: 11px
+                font-weight: 300
+                text-transform: uppercase
+    .lang
+        display: block
+        text-align: center
+        margin-top: 19px
+        color: #1fbad6
+        font-size: 11px
+        font-weight: 400
+        text-transform: uppercase
+    .footer_nav
+        position: relative
+        .round_ul
+            top: -72px
+            left: 23px
+            position: absolute
+            padding: 0
+            width: 155px
+            justify-content: space-between
+            display: flex
+            list-style: none
+        .footer_round
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 32px
+            height: 32px
+            background-color: #070716
+            border-radius: 100%
+        .market
+            position: absolute
+            top: -68px
+            right: 23px
+    .downline
+        margin-top: 21px
+        height: 8px
+        background-color: #070716
+
+
+
